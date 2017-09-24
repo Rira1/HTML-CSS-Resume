@@ -1,1 +1,85 @@
 /* Your CSS styles go here */
+
+html {
+  background: url(sky.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.profile_pic{
+  height:200px;
+  width: 200px;
+  border-radius: 50%;
+}
+ul{ color: red;}
+ol{ color: blue;}
+TR{ color: skyblue;}
+
+
+
+.content{
+background-color: rgba(0, 0, 0, 0.7);
+background-position: center;
+color: white;
+padding : 40px;
+height: 500px;
+width: : 300px;
+margin: 0 auto;
+text-align: center;
+}
+.a{
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+.edu{
+  background-color: rgba(47,79,79,0.7);
+  background-position: left;
+  color: white;
+  padding : 10px;
+  height: 150px;
+  width: : 50%;
+  margin: 0 auto;
+  text-align:center;
+
+}
+.b{
+  list-style-type: none;
+  list-style-position: inside;
+}
+.skill{
+  background-color: rgba(106,90,205,0.7);
+  background-position: left;
+  color: white;
+  padding : 10px;
+  height: 150px;
+  width: : 50%;
+  margin:  auto;
+  text-align:center;
+}
+.table{
+  background-color: rgba(138,43,226,0.7);
+  background-position: left;
+  color: white;
+  padding : 10px;
+  height: 300px;
+  width: : 50%;
+  margin: 0 auto;
+  text-align:center;
+
+}
+.center{
+  margin-left:auto;
+    margin-right:auto;
+}
+.form{
+  background-color: rgba(128,0,0,0.7);
+  background-position: left;
+  color: white;
+  padding : 10px;
+  height: 300px;
+  width: : 50%;
+  margin:  auto;
+  text-align:center;
+}
